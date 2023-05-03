@@ -1,0 +1,59 @@
+"Api" -
+
+Client  -  HTML, CSS, JAVASCRIPT
+Server  -  JAVA, Python, PHP
+
+
+Rest Api - REST Architecture style, Representational State Transfer.
+
+Client Server
+Stateless - No state maintained client and server
+Cache
+Uniform Interface
+Layered System
+Code on Demand
+
+JSON - JAVA SCRIPT OBJECT NOTATION
+Light Weight
+Human Readable
+Easy To understand
+Key Value pairs
+
+
+Completely language agnostic , can be used with any programming language.
+Rest Uses HTTP protocol to transfer the data over the internet.
+
+
+
+IDEMPOTENT - An idempotent API is an API (Application Programming Interface) that can be called multiple times with the same parameters and produce the same result each time, without causing any side effects or unintended changes to the system.
+
+HEAD  -  It is the same as GET, but only transfers the status line and header section.
+
+POST - Creates new resource each time and it is not Idempotent.
+
+OPTIONS - It describes the communication option for the target resource. It is giving information about Api.
+
+
+RestAssured :-
+
+If we are using RestAssured Static Imports we can directly call methods.
+
+RequestSpecification is interface in rest assured and it has all the methods that will be used in rest assured.
+
+HamCrest Vs TestNg:-
+Readability
+Descriptive error Message
+Type Safety
+
+Collection matchers(List, Array, Map etc.)
+
+log().all() -> Before Method
+
+log().all() -> After
+
+Headers:-
+Request Headers and Response Headers
+Headers gives additional information to client and server.
+
+
+
